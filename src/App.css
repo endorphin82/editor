@@ -1,0 +1,53 @@
+.App {
+    /*text-align: center;*/
+}
+
+.panel {
+    padding-top: 20px;
+}
+
+.panel ul {
+    display: flex;
+}
+
+.panel ul li {
+    margin-left: 20px
+}
+
+.panel ul li button {
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.panel ul li button.italic {
+    font-style: italic;
+}
+
+.panel ul li button.bold {
+    font-weight: 700;
+}
+
+.panel ul li button.underline {
+    text-decoration: underline;
+}
+
+.App .editor {
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 600px;
+    height: 200px;
+    padding: 5px;
+}
+
+.edit_save {
+    padding: 5px;
+}
+
+i {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
